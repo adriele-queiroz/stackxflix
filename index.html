@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>StackXflix</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            StackXflix
+        </h1>
+        <img src="filme.png" class="page-logo" alt="">
+        <p class="page-subtitle">
+          Qual seu filme ou série favorita?
+        </p>
+        <div class="form-wrapper">
+          <input type="text" id="nomeFilme" name="nomeFilme" placeholder="Insira o nome do filme">
+          <input type="text" id="filme" name="filme" placeholder="Insira endereço de imagem">
+          <button onClick="adicionarFilme()">Adicionar Filme</button>
+          <button onClick="removerFilme()">Remover Filme</button>
+        </div>
+      </div>
+      <!--div id="listaFilmes"></div>-->
+      <ul id="listaImagens"></ul>
+    </body>
+    <script src="script.js"></script> 
+</html>

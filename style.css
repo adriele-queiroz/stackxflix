@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+body {
+    font-family: "sarala", sans-serif;
+    text-align: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9Jxtju2nhjIzv_fXMMEJnHveh78oPOzjQKA&usqp=CAU");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    font-size: 35px;
+    
+}
+
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 160px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 200px;
+}
+li {
+  display: inline-block;
+  padding: 10px;
+  max-height: 250px;
+  color: white;
+  font-size: 20px;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  display: inline-block;
+  margin: 10 auto;
+  padding: 10px 15px;
+}
+
+.form-wrapper button {
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 12px 20px;
+  font-size: 18px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
