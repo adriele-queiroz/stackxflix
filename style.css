@@ -8,10 +8,9 @@ body {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    font-size: 35px;
-    
+    font-size: 35px;   
+    margin-top: 5rem; 
 }
-
 
 .container {
   text-align: center;

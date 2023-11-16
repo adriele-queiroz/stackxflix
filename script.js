@@ -1,13 +1,5 @@
-var catalogoFilmes = [
-  "https://br.web.img3.acsta.net/pictures/210/235/21023527_20130730205450537.jpg",
-  "https://upload.wikimedia.org/wikipedia/pt/f/f2/Meu_Passado_Me_Condena_2013.jpg",
-  "https://br.web.img2.acsta.net/pictures/14/12/02/17/30/245212.jpg"
-];
-var nomesFilmes = [
-  "Rush - No Limite da Emoção",
-  "Meu Passado Me Condena",
-  "Kickboxer - O Desafio do Dragão"
-];
+var catalogoFilmes = [ ];
+var nomesFilmes = [ ];
 
 let listaImg = document.getElementById("listaImagens");
 
